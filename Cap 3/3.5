@@ -1,0 +1,21 @@
+Proceso sueldo
+	Escribir "Bienvenido nuestra plataforma.";
+	Escribir "Ingrese sueldo basico del empleado:";
+	Leer SB;
+	Escribir "Ingrese monto de horas extra:";
+	Leer MH;
+	Escribir "Ingrese horas extra realizadas:";
+	Leer HE;
+	
+		//Operaciones
+			Sueldo_mas_horas<-SB+(MH*HE);
+			Descuento_20percent<- Sueldo_mas_horas*0.20;
+			Sueldo_total_ganado<-Sueldo_mas_horas-Descuento_20percent;
+			
+			//Imprimir Resultado
+				Escribir "El sueldo basico del empleado es:                   || $", SB;
+				Escribir "El sueldo basico mas horas extras es de:            || $", Sueldo_mas_horas;    
+				Escribir "El descuento realizado del 20% al empleado es de:   || $", Descuento_20percent;
+				Escribir "------------------------------------------------------------------------";
+				Escribir "El total ganado del empleado es de:                 || $", Sueldo_total_ganado;
+FinProceso

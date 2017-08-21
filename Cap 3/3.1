@@ -1,0 +1,29 @@
+Proceso Cilindro
+	
+	//Pedir Datos
+	Repetir
+		Escribir "Ingrese radio del cilindro";
+		Leer R;
+	Hasta Que R>0
+
+	
+	Repetir
+		Escribir "Ingrese altura del cilindro";
+		Leer H;
+	Hasta Que H>0
+	
+	
+	
+	//Operaciones
+	
+		//Area del ciliindro
+			AB<-PI*R^2;
+			AL<-(2*PI*R)*H;
+			Acilindro<-(2*AB)+AL;
+		//Volumen del cilindro	
+			Vcilindro<-(PI*R^2)*H;
+			
+			
+				//Entrega de Resultado
+					Escribir "El area del cilindro es de: ", Acilindro, " cm, y el Volumen es de :", Vcilindro, " cm";
+FinProceso

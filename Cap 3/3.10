@@ -1,0 +1,22 @@
+Proceso asignatura
+	//Pedir datos	
+		Escribir "Bienvenido a nuestra plataforma.";
+		Escribir "Ingrese cantidad de alumnos reprobados:";Leer alum_repro;
+		Escribir "Ingrese cantidad de alumnos aprobados:";Leer alum_apro;
+		Escribir "Ingrese cantidad de alumnos notables:";Leer alum_notb;
+		Escribir "Ingrese cantidad de alumnos sobresalientes:";Leer alum_sobresali;
+		
+		
+			//Operaciones
+				Total <- alum_apro + alum_sobresali + alum_notb + alum_repro;
+				PorcentRepro<-(alum_repro/Total)*100;
+				PorcentApro<-(alum_apro/Total)*100;
+				PorcentNotb<-(alum_notb/Total)*100;
+				PorcentSobreSali<-(alum_sobresali/Total)*100;
+				
+					//Mostrar resultados
+						Escribir "El porcentaje de alumnos reprobados es del        :||", PorcentRepro, "%";
+						Escribir "El porcentaje de alumnos aprobados es del         :||", PorcentApro, "%";
+						Escribir "El porcentaje de alumnos notables es del          :||", PorcentNotb, "%";
+						Escribir "El porcentaje de alumnos sobresalientes es del    :||", PorcentSobreSali, "%";
+FinProceso
